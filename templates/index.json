@@ -1,0 +1,366 @@
+{
+  "sections": {
+    "8bf69362-bef9-4f89-9c3d-d9b3395ad70c": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19502207992124__8bf69362-bef9-4f89-9c3d-d9b3395ad70c-1688044494a91ef9df-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Logo_and_Text.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19502207992124__8bf69362-bef9-4f89-9c3d-d9b3395ad70c-1688044494a91ef9df-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19502207992124__8bf69362-bef9-4f89-9c3d-d9b3395ad70c-1688044494a91ef9df-0",
+        "template--19502207992124__8bf69362-bef9-4f89-9c3d-d9b3395ad70c-1688044494a91ef9df-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-0856d3d8-1783-438f-9a75-3439fe616972",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "5adec333-1fe3-4203-85b0-4b713b773547": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Running_Copy_Co_Desktop.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "cdba4c2c-f7e2-4015-bba0-6df3d95218c3": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19502207992124__cdba4c2c-f7e2-4015-bba0-6df3d95218c3-1688044494a91ef9df-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sugar_Icon_v2.png",
+            "title": "8g OF SUGAR PER BAG",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19502207992124__cdba4c2c-f7e2-4015-bba0-6df3d95218c3-1688044494a91ef9df-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Fruits_icon_fcc082c4-425f-458c-9501-8d8da02da2b6.png",
+            "title": "MADE WITH REAL FRUIT JUICE*",
+            "text": "<p>*5.5% of real fruit juice</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19502207992124__cdba4c2c-f7e2-4015-bba0-6df3d95218c3-1688044494a91ef9df-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Plant_Icon_v2.png",
+            "title": "PLANT BASED GUMMIES",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19502207992124__cdba4c2c-f7e2-4015-bba0-6df3d95218c3-1688044494a91ef9df-0",
+        "template--19502207992124__cdba4c2c-f7e2-4015-bba0-6df3d95218c3-1688044494a91ef9df-1",
+        "template--19502207992124__cdba4c2c-f7e2-4015-bba0-6df3d95218c3-1688044494a91ef9df-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-0deff096-1ea7-48ad-9f79-091d2d4c7b36",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
+    "4215e66a-6b71-4958-9cf7-2af63cd089a6": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19502207992124__4215e66a-6b71-4958-9cf7-2af63cd089a6-1688044494a91ef9df-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_8_2x_c4822978-ba23-4f15-9997-4f152292925b.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "https://Shopnow.com"
+          }
+        },
+        "template--19502207992124__4215e66a-6b71-4958-9cf7-2af63cd089a6-1688044494a91ef9df-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_7_2x_dbe8bb77-1d9c-4e12-9880-468156cb54cc.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19502207992124__4215e66a-6b71-4958-9cf7-2af63cd089a6-1688044494a91ef9df-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asset_8_2x_9e183d4e-5380-4bf7-a9b5-afcd891a2e56.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19502207992124__4215e66a-6b71-4958-9cf7-2af63cd089a6-1688044494a91ef9df-0",
+        "template--19502207992124__4215e66a-6b71-4958-9cf7-2af63cd089a6-1688044494a91ef9df-1",
+        "template--19502207992124__4215e66a-6b71-4958-9cf7-2af63cd089a6-1688044494a91ef9df-2"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".title-wrapper-with-link h2 {margin: auto;}"
+      ],
+      "settings": {
+        "title": "ALL FLAVORS NO COMPRIMISE",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-0856d3d8-1783-438f-9a75-3439fe616972",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_XeKceD": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALL FLAVORS NO COMPROMISE",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "accent-2",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6231c8fe-9f64-4e58-bbfd-7fbad4636c04": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19502207992124__6231c8fe-9f64-4e58-bbfd-7fbad4636c04-1688044494a91ef9df-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Font2_2x_cb0630b9-f5cf-4b78-98a7-999ba88c2e66.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19502207992124__6231c8fe-9f64-4e58-bbfd-7fbad4636c04-1688044494a91ef9df-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Font3_2x_7472f0a0-9030-47b0-9d6a-e3765bd82083.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19502207992124__6231c8fe-9f64-4e58-bbfd-7fbad4636c04-1688044494a91ef9df-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Font_4_2x_b2309bb0-bd55-4d08-bf42-5a10951e07db.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19502207992124__6231c8fe-9f64-4e58-bbfd-7fbad4636c04-1688044494a91ef9df-0",
+        "template--19502207992124__6231c8fe-9f64-4e58-bbfd-7fbad4636c04-1688044494a91ef9df-1",
+        "template--19502207992124__6231c8fe-9f64-4e58-bbfd-7fbad4636c04-1688044494a91ef9df-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_RxCKwb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_qFEbnA": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_T8UcbC": {
+          "type": "column",
+          "settings": {
+            "title": "HERE'S THE THING...",
+            "text": "<p>Plant based doesnt have to be boring - after all, STARBURST candies never compromises on juciness. And with 4g of sugar per serving and more flavor there's even more reason to love these binge worthy squares.</p><p>So go on, get gummy and enjoy your favorite flavors the guiltless way!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_qFEbnA",
+        "column_T8UcbC"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "SHOP NOW",
+        "button_link": "shopify://collections/all",
+        "color_scheme": "scheme-61b1e461-eb82-4f6a-baf1-6d1f67c89751",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_HqRWFG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_czqgHq": {
+          "type": "column",
+          "settings": {
+            "title": "SOFT, CHEWY AND 8G OF SUGAR",
+            "text": "<h6>per bag</h6><p>Find your favorite - your new plant based low sugar gummies are ready and waiting for you!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XzAPWe": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_czqgHq",
+        "column_XzAPWe"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "SHOP NOW",
+        "button_link": "shopify://collections/all",
+        "color_scheme": "scheme-61b1e461-eb82-4f6a-baf1-6d1f67c89751",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "8bf69362-bef9-4f89-9c3d-d9b3395ad70c",
+    "5adec333-1fe3-4203-85b0-4b713b773547",
+    "cdba4c2c-f7e2-4015-bba0-6df3d95218c3",
+    "4215e66a-6b71-4958-9cf7-2af63cd089a6",
+    "featured_collection_XeKceD",
+    "6231c8fe-9f64-4e58-bbfd-7fbad4636c04",
+    "multicolumn_RxCKwb",
+    "multicolumn_HqRWFG"
+  ]
+}
