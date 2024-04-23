@@ -1,0 +1,27 @@
+.textandbackgroundwrap{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;;
+}
+.textandbackgroundHeading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.textandbackgroundHeading h2{
+    color: #EC5D5B;
+    font-size: 64px;
+    line-height: 1;
+    font-family: 'Solido';
+    margin: 0;
+}
+.textandbackgroundHeading p{
+    color: #EC5D5B;
+    font-size: 28px;
+    line-height: 32px;
+    font-family: 'Solido';
+}

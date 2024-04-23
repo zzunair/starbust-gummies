@@ -1,0 +1,52 @@
+.mini-image-banner-wrap{
+    background-color: #FFDD00;
+    height: 100px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.mini-image-banner-text h2{
+    font-family: 'Solido';
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+}
+.mini-image-banner-text{
+    text-align: center;
+    padding-top: 20px;
+}
+.candy-image1{
+    position: absolute;
+    left: 15px;
+    top: 0;
+}
+.candy-image2{
+    position: absolute;
+    left: 110px;
+    top: 0;
+}
+.candy-image3{
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+.candy-image4{
+    position: absolute;
+    right: 110px;
+    top: 0;
+}
+
+/* @media all and (min-width: 600px){ */
+@media all and (max-width: 600px) {
+    .candy-image{
+        display: none;
+    }
+    .mini-image-banner-wrap{
+        padding: 0;
+        height: 80px;
+    }
+    .mini-image-banner-text h2{
+        font-size: 35px;
+    }
+    
+}

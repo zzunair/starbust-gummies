@@ -1,0 +1,60 @@
+.banner-wrapper .banner-slide {
+    height: 600px;
+    background-size: cover;
+  }
+  .banner-inner-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    margin: auto
+  }
+  .banner-wrapper .banner-slide .banner-text-wrap {
+    width: 480px;  
+  }
+  
+  .banner-wrapper .banner-slide .banner-text-wrap h1 {
+    font-family: 'Solido';
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .banner-wrapper .slick-dots {
+    bottom: 20px;
+    right: 40px;
+    width: auto;
+  }
+  
+  .banner-wrapper .slick-dots li button:before {
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  
+  .banner-wrapper .slick-dots .slick-active button:before {
+    background: #000;
+    color: #fff;
+  }
+  
+  .slick-slide { -webkit-transform: translate3d(0,0,0); }
+
+
+  @media all and (max-width: 600px){
+    .banner-inner-wrap{
+        width: 100%;
+    }
+    .banner-wrapper .banner-slide .banner-text-wrap{
+        width: unset;
+    }
+    .banner-image-wrap{
+        width: 350px;
+        margin: auto;
+        text-align: center;
+    }
+    .banner-image-wrap img{
+        width: 100%;
+    }
+  }

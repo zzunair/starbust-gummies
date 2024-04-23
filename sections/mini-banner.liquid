@@ -1,0 +1,43 @@
+{{ 'mini-image-banner.css' | asset_url | stylesheet_tag }}
+
+<section>
+    <div class="mini-image-banner-wrap">
+        <div class="mini-image-banner-innerwrap">
+            <div class="candy-image candy-image1">
+                <img src="{{'Small Lemon Gummie.png' | asset_img_url: '100x100'}}" alt="">
+            </div>
+            <div class="candy-image candy-image2">
+                <img src="{{'Small Strawberry Gum.png' | asset_img_url: '100x100'}}" alt="">
+            </div>
+            <div class="mini-image-banner-text">
+                <h2>{{section.settings.text | upcase}}</h2>
+            </div>
+            <div class="candy-image candy-image3">
+                <img src="{{'Small Lemon Gummie.png' | asset_img_url: '100x100'}}" alt="">
+            </div>
+            <div class="candy-image candy-image4">
+                <img src="{{'Small Watermelon Gum.png' | asset_img_url: '100x100'}}" alt="">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+{% schema %}
+{
+    "name": "Mini Image Banner",
+    "settings": [
+        {
+            "type": "text",
+            "id": "text",
+            "label": "Text"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Mini Image Banner"
+        }
+    ]
+}
+{% endschema %}

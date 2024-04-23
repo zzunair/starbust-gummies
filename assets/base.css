@@ -2955,7 +2955,6 @@ details-disclosure > details {
 .gradient {
   background: rgb(var(--color-background));
   background: var(--gradient-background);
-  background-attachment: fixed;
 }
 
 @media screen and (forced-colors: active) {
@@ -3152,13 +3151,13 @@ details-disclosure > details {
   display: block;
 }
 
-.rte > *:first-child {
+/* .rte > *:first-child {
   margin-top: 0;
 }
 
 .rte > *:last-child {
   margin-bottom: 0;
-}
+} */
 
 .rte table {
   table-layout: fixed;
@@ -3520,7 +3519,7 @@ details-disclosure > details {
 
 
 h1, h2, h3, h4 {
-  font-family: 'introrust' !important;
+  font-family: 'introrust';
 }
 
 /*****HOMEPAGE CUSTOMIZATIONS****/ 

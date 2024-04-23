@@ -1,0 +1,141 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+{{ 'custom-banner.css' | asset_url | stylesheet_tag }}
+
+
+<section id="main-banner">
+    <div class="banner-wrapper fw-100">
+        {% assign mobileImage = "" %}
+        {% for block in section.blocks %}
+            {% assign mobileImage = block.settings.mimage %}
+             {% if block.settings.image != blank %}
+                <div class="banner-slide banner-slide-{{ forloop.index }}" style="background-image: url({{block.settings.image | img_url: 'master'}});">
+                    <div class="banner-inner-wrap">
+                        {% if block.settings.small-image != blank %}                    
+                            <div class="banner-image-wrap">
+                                <img src="{{block.settings.small-image |  img_url: 'master' }}" alt="">
+                            </div> 
+                        {% endif %}
+    
+                        <div class="banner-text-wrap">
+                            {% if block.settings.heading != blank %}
+                                <h1>{{block.settings.heading}}</h1>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+        {% endfor %}
+    </div>
+</section>
+{% for block in section.blocks %}
+<style>
+    @media all and (max-width: 600px){
+        .banner-slide-{{ forloop.index }}{
+            background-image: url({{ block.settings.mimage | img_url: 'master' }}) !important;
+        }
+    }
+    </style>
+{% endfor %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+    integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $('.banner-wrapper').slick({
+        dots: true,
+        infinite: {{section.settings.infinite}},
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: {{section.settings.autoplay}},
+        autoplaySpeed: {{section.settings.slider-speed}},
+        fade: true,
+        pauseOnHover: false
+    });
+
+</script>
+
+{% schema %}
+{
+  "name": "custom banner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "infinite",
+      "default": false,
+      "label": "Infinte Slider"
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "default": true,
+      "label": "Autoplay Slider"
+    },
+    {
+      "type": "range",
+      "id": "slider-speed",
+      "min": 1000,
+      "max": 9000,
+      "step": 1000,
+      "default": 4000,
+      "label": "Slider Speed"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "banner",
+      "name": "banner",
+      "limit": 10,
+      "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Desktop Slider Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "mimage",
+            "label": "Mobile Slider Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "small-image",
+            "label": "Slider Mini Image"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Image banner",
+          "label": "Banner Heading"
+        },
+        {
+            "type": "range",
+            "id": "image_overlay_opacity",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "unit": "%",
+            "label": "t:sections.image-banner.settings.image_overlay_opacity.label",
+            "default": 0
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Banner",
+      "blocks": [
+        {
+          "type": "banner"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
